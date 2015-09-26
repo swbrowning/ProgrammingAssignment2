@@ -25,6 +25,7 @@ makeCacheMatrix <- function(x){
 
 
 ## Return a matrix that is the inverse of 'x'
+## assumes x is numeric
 
 cacheSolve <- function(x){
     mc <- makeCacheMatrix()
